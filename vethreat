@@ -1,0 +1,2 @@
+. threat-intelligence/ThreatIntelligence/bin/activate
+cd threat-intelligence/

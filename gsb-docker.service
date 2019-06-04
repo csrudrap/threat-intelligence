@@ -1,0 +1,7 @@
+[Unit]
+Description = Enabling Google Safe Browsing Docker instance.
+After = network.target
+[Service]
+ExecStart = /root/scripts/gsb_docker/gsb_docker.sh
+[Install]
+WantedBy = multi-user.target
